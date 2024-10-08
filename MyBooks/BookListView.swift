@@ -19,6 +19,7 @@ enum SortOrder: String, Identifiable, CaseIterable {
 struct BookListView: View {
     @State private var createNewBook = false
     @State private var sortOrder = SortOrder.status
+    @State private var filter = ""
     var body: some View {
         NavigationStack {
             Picker("Sort order", selection: $sortOrder) {
@@ -27,20 +28,21 @@ struct BookListView: View {
                 }
             }
             .buttonStyle(.bordered)
-            BookList(sortOrder: sortOrder)
-            .navigationTitle("My Books")
-            .toolbar {
-                Button {
-                    createNewBook = true
-                } label: {
-                    Image(systemName: "plus.circle.fill")
-                        .imageScale(.large)
+            BookList(sortOrder: sortOrder, filterString: filter)
+                .searchable(text: $filter, prompt: Text("Filter on title or author"))
+                .navigationTitle("My Books")
+                .toolbar {
+                    Button {
+                        createNewBook = true
+                    } label: {
+                        Image(systemName: "plus.circle.fill")
+                            .imageScale(.large)
+                    }
                 }
-            }
-            .sheet(isPresented: $createNewBook) {
-                NewBookView()
-                    .presentationDetents([.medium])
-            }
+                .sheet(isPresented: $createNewBook) {
+                    NewBookView()
+                        .presentationDetents([.medium])
+                }
         }
     }
 }
