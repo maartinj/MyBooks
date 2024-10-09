@@ -22,7 +22,7 @@ struct BookListView: View {
     @State private var filter = ""
     var body: some View {
         NavigationStack {
-            Picker("Sort order", selection: $sortOrder) {
+            Picker("", selection: $sortOrder) {
                 ForEach(SortOrder.allCases) { sortOrder in
                     Text("Sort by \(sortOrder.rawValue)").tag(sortOrder)
                 }

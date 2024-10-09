@@ -77,13 +77,13 @@
 			children = (
 				E435E8582CB5F0E2005E2B43 /* Preview Content */,
 				E435E8592CB5F0E2005E2B43 /* Assets.xcassets */,
-				E435E85A2CB5F0E2005E2B43 /* Book.swift */,
+				E435E85E2CB5F0E2005E2B43 /* MyBooksApp.swift */,
 				E435E85C2CB5F0E2005E2B43 /* BookListView.swift */,
 				E435E85B2CB5F0E2005E2B43 /* BookList.swift */,
-				E435E85D2CB5F0E2005E2B43 /* EditBookView.swift */,
-				E435E85E2CB5F0E2005E2B43 /* MyBooksApp.swift */,
 				E435E85F2CB5F0E2005E2B43 /* NewBookView.swift */,
+				E435E85D2CB5F0E2005E2B43 /* EditBookView.swift */,
 				E435E8602CB5F0E2005E2B43 /* RatingsView.swift */,
+				E435E85A2CB5F0E2005E2B43 /* Book.swift */,
 			);
 			path = MyBooks;
 			sourceTree = "<group>";
