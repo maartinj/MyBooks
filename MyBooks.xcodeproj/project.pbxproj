@@ -65,8 +65,8 @@
 		E435E8582CB5F0E2005E2B43 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				E435E8552CB5F0E2005E2B43 /* BookSamples.swift */,
 				E435E8562CB5F0E2005E2B43 /* Preview Assets.xcassets */,
+				E435E8552CB5F0E2005E2B43 /* BookSamples.swift */,
 				E435E8572CB5F0E2005E2B43 /* PreviewContainer.swift */,
 			);
 			path = "Preview Content";
@@ -75,7 +75,6 @@
 		E435E8612CB5F0E2005E2B43 /* MyBooks */ = {
 			isa = PBXGroup;
 			children = (
-				E435E8582CB5F0E2005E2B43 /* Preview Content */,
 				E435E8592CB5F0E2005E2B43 /* Assets.xcassets */,
 				E435E85E2CB5F0E2005E2B43 /* MyBooksApp.swift */,
 				E435E85C2CB5F0E2005E2B43 /* BookListView.swift */,
@@ -84,6 +83,7 @@
 				E435E85D2CB5F0E2005E2B43 /* EditBookView.swift */,
 				E435E8602CB5F0E2005E2B43 /* RatingsView.swift */,
 				E435E85A2CB5F0E2005E2B43 /* Book.swift */,
+				E435E8582CB5F0E2005E2B43 /* Preview Content */,
 			);
 			path = MyBooks;
 			sourceTree = "<group>";
