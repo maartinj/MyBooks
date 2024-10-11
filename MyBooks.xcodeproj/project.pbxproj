@@ -18,6 +18,7 @@
 		E435E86A2CB5F0E2005E2B43 /* MyBooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435E85E2CB5F0E2005E2B43 /* MyBooksApp.swift */; };
 		E435E86B2CB5F0E2005E2B43 /* NewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435E85F2CB5F0E2005E2B43 /* NewBookView.swift */; };
 		E435E86C2CB5F0E2005E2B43 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435E8602CB5F0E2005E2B43 /* RatingsView.swift */; };
+		E4D86D612CB9401C00210AFB /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D86D602CB9401C00210AFB /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E435E85E2CB5F0E2005E2B43 /* MyBooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksApp.swift; sourceTree = "<group>"; };
 		E435E85F2CB5F0E2005E2B43 /* NewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookView.swift; sourceTree = "<group>"; };
 		E435E8602CB5F0E2005E2B43 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		E4D86D602CB9401C00210AFB /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E435E85D2CB5F0E2005E2B43 /* EditBookView.swift */,
 				E435E8602CB5F0E2005E2B43 /* RatingsView.swift */,
 				E435E85A2CB5F0E2005E2B43 /* Book.swift */,
+				E4D86D602CB9401C00210AFB /* Quote.swift */,
 				E435E8582CB5F0E2005E2B43 /* Preview Content */,
 			);
 			path = MyBooks;
@@ -169,6 +172,7 @@
 				E435E8692CB5F0E2005E2B43 /* EditBookView.swift in Sources */,
 				E435E86A2CB5F0E2005E2B43 /* MyBooksApp.swift in Sources */,
 				E435E86B2CB5F0E2005E2B43 /* NewBookView.swift in Sources */,
+				E4D86D612CB9401C00210AFB /* Quote.swift in Sources */,
 				E435E86C2CB5F0E2005E2B43 /* RatingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
