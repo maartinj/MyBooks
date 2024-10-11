@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E411ED6B2CB9DD4F00818773 /* QuotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E411ED6A2CB9DD4F00818773 /* QuotesListView.swift */; };
 		E435E8622CB5F0E2005E2B43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E435E8562CB5F0E2005E2B43 /* Preview Assets.xcassets */; };
 		E435E8632CB5F0E2005E2B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E435E8592CB5F0E2005E2B43 /* Assets.xcassets */; };
 		E435E8642CB5F0E2005E2B43 /* BookSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435E8552CB5F0E2005E2B43 /* BookSamples.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E411ED6A2CB9DD4F00818773 /* QuotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListView.swift; sourceTree = "<group>"; };
 		E4291C2F2C73996E0038A9B5 /* MyBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E435E8552CB5F0E2005E2B43 /* BookSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSamples.swift; sourceTree = "<group>"; };
 		E435E8562CB5F0E2005E2B43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				E435E8602CB5F0E2005E2B43 /* RatingsView.swift */,
 				E435E85A2CB5F0E2005E2B43 /* Book.swift */,
 				E4D86D602CB9401C00210AFB /* Quote.swift */,
+				E411ED6A2CB9DD4F00818773 /* QuotesListView.swift */,
 				E435E8582CB5F0E2005E2B43 /* Preview Content */,
 			);
 			path = MyBooks;
@@ -174,6 +177,7 @@
 				E435E86B2CB5F0E2005E2B43 /* NewBookView.swift in Sources */,
 				E4D86D612CB9401C00210AFB /* Quote.swift in Sources */,
 				E435E86C2CB5F0E2005E2B43 /* RatingsView.swift in Sources */,
+				E411ED6B2CB9DD4F00818773 /* QuotesListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
