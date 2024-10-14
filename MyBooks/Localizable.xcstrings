@@ -1,0 +1,102 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "^[%lld Quotes](inflect: true)" : {
+
+    },
+    "Author" : {
+
+    },
+    "Back" : {
+
+    },
+    "Book Title" : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Create" : {
+
+    },
+    "Create Genre" : {
+
+    },
+    "Create new Genre" : {
+
+    },
+    "Date Added" : {
+
+    },
+    "Date Completed" : {
+
+    },
+    "Date Started" : {
+
+    },
+    "Enter your first book." : {
+
+    },
+    "Filter on title or author" : {
+
+    },
+    "Genres" : {
+
+    },
+    "My Books" : {
+
+    },
+    "name" : {
+
+    },
+    "New Book" : {
+
+    },
+    "New Genre" : {
+
+    },
+    "Page" : {
+
+    },
+    "page #" : {
+
+    },
+    "Page: %@" : {
+
+    },
+    "Quotes" : {
+
+    },
+    "Rating" : {
+
+    },
+    "Recommended by" : {
+
+    },
+    "Set the genre color" : {
+
+    },
+    "Sort by %@" : {
+
+    },
+    "Status" : {
+
+    },
+    "Synopsis" : {
+
+    },
+    "Title" : {
+
+    },
+    "Update" : {
+
+    },
+    "You need to create some genres first." : {
+
+    }
+  },
+  "version" : "1.0"
+}

@@ -26,6 +26,7 @@
 		E48FCDEF2CB9F3BF00F50A01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48FCDD72CB9F3BF00F50A01 /* Preview Assets.xcassets */; };
 		E48FCDF12CB9F41D00F50A01 /* GenresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48FCDF02CB9F41D00F50A01 /* GenresView.swift */; };
 		E4BD6CB82CBCA84500B38DB5 /* GenresStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BD6CB72CBCA84500B38DB5 /* GenresStackView.swift */; };
+		E4BD6CBA2CBCADD400B38DB5 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E4BD6CB92CBCADD400B38DB5 /* Localizable.xcstrings */; };
 		E4C94C6B2CBB457800199191 /* NewGenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C94C6A2CBB457800199191 /* NewGenreView.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		E48FCDDD2CB9F3BF00F50A01 /* MyBooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksApp.swift; sourceTree = "<group>"; };
 		E48FCDF02CB9F41D00F50A01 /* GenresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresView.swift; sourceTree = "<group>"; };
 		E4BD6CB72CBCA84500B38DB5 /* GenresStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresStackView.swift; sourceTree = "<group>"; };
+		E4BD6CB92CBCADD400B38DB5 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		E4C94C6A2CBB457800199191 /* NewGenreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGenreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +152,7 @@
 		E48FCDDE2CB9F3BF00F50A01 /* MyBooks */ = {
 			isa = PBXGroup;
 			children = (
+				E4BD6CB92CBCADD400B38DB5 /* Localizable.xcstrings */,
 				E48FCDCC2CB9F3BF00F50A01 /* Book */,
 				E48FCDDB2CB9F3BF00F50A01 /* Quotes */,
 				E48FCDD02CB9F3BF00F50A01 /* Genres */,
@@ -226,6 +229,7 @@
 			files = (
 				E48FCDEE2CB9F3BF00F50A01 /* Assets.xcassets in Resources */,
 				E48FCDEF2CB9F3BF00F50A01 /* Preview Assets.xcassets in Resources */,
+				E4BD6CBA2CBCADD400B38DB5 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +323,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -375,6 +380,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
