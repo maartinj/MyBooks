@@ -51,6 +51,16 @@
         }
       }
     },
+    "author" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "autor"
+          }
+        }
+      }
+    },
     "Author" : {
       "localizations" : {
         "de" : {
@@ -87,6 +97,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abbrechen"
+          }
+        }
+      }
+    },
+    "Completed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vollendet"
           }
         }
       }
@@ -181,6 +201,16 @@
         }
       }
     },
+    "In Progress" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im Gange"
+          }
+        }
+      }
+    },
     "My Books" : {
       "localizations" : {
         "de" : {
@@ -217,6 +247,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neues Genre"
+          }
+        }
+      }
+    },
+    "On Shelf" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im Regal"
           }
         }
       }
@@ -301,6 +341,16 @@
         }
       }
     },
+    "status" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "status"
+          }
+        }
+      }
+    },
     "Status" : {
       "localizations" : {
         "de" : {
@@ -317,6 +367,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zusammenfassung"
+          }
+        }
+      }
+    },
+    "title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "titel"
           }
         }
       }
