@@ -171,7 +171,7 @@ struct EditBookView: View {
             }
             .buttonStyle(.bordered)
             .frame(maxWidth: .infinity, alignment: .trailing)
-            .padding(.horizontal)
+            .padding()
         }
         .padding()
         .textFieldStyle(.roundedBorder)
@@ -189,6 +189,7 @@ struct EditBookView: View {
                     book.dateStarted = dateStarted
                     book.dateCompleted = dateCompleted
                     book.recommendedBy = recommendedBy
+                    book.bookCover = selectedBookCoverData
                     dismiss()
                 }
                 .buttonStyle(.borderedProminent)
@@ -203,6 +204,7 @@ struct EditBookView: View {
             dateStarted = book.dateStarted
             dateCompleted = book.dateCompleted
             recommendedBy = book.recommendedBy
+            selectedBookCoverData = book.bookCover
         }
         .task(id: selectedBookCover) {
             if let data = try? await selectedBookCover?.loadTransferable(type: Data.self) {
@@ -221,6 +223,7 @@ struct EditBookView: View {
         || dateStarted != book.dateStarted
         || dateCompleted != book.dateCompleted
         || recommendedBy != book.recommendedBy
+        || selectedBookCoverData != book.bookCover
     }
 }
 
