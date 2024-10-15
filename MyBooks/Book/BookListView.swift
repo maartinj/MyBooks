@@ -5,6 +5,7 @@
 //  Created by Marcin Jędrzejak on 19/08/2024.
 //
 
+// Completed 8. SwiftData CloudKit
 import SwiftUI
 import SwiftData
 
