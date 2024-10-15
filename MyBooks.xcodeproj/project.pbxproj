@@ -133,8 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				E48FCDD12CB9F3BF00F50A01 /* Book.swift */,
-				E48FCDD22CB9F3BF00F50A01 /* Genre.swift */,
 				E48FCDD32CB9F3BF00F50A01 /* Quote.swift */,
+				E48FCDD22CB9F3BF00F50A01 /* Genre.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
