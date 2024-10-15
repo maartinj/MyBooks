@@ -104,8 +104,8 @@
 			children = (
 				E48FCDC82CB9F3BF00F50A01 /* BookList.swift */,
 				E48FCDC92CB9F3BF00F50A01 /* BookListView.swift */,
-				E48FCDCA2CB9F3BF00F50A01 /* EditBookView.swift */,
 				E48FCDCB2CB9F3BF00F50A01 /* NewBookView.swift */,
+				E48FCDCA2CB9F3BF00F50A01 /* EditBookView.swift */,
 			);
 			path = Book;
 			sourceTree = "<group>";
